@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "runompt"
+version = "0.1.0"
+description = "A functional self modifying programming language"
+authors = ["StarrFox <starrfox6312@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lark = "^1.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
